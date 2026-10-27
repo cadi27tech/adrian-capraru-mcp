@@ -6,7 +6,7 @@ An agent-readable profile. A small Model Context Protocol server that lets Claud
 
 Every answer comes from the data behind [cadi27tech.github.io](https://cadi27tech.github.io). A build script generates `data/profile.json` from the site's own content file, its JSON Resume and the published Upwork offers, so the server says what the site says and nothing else.
 
-- **Registry:** official MCP Registry, `io.github.cadi27tech/adrian-capraru`
+- **Registry:** official MCP Registry, `io.github.cadi27tech/adrian-capraru` ([registry entry](https://registry.modelcontextprotocol.io/v0/servers?search=adrian-capraru)), active since 27 Oct 2026
 - **Transport:** stdio. Runs with `npx github:cadi27tech/adrian-capraru-mcp`, or as the MCPB bundle attached to each release
 - **Auth and network:** none. No key, no account, no outbound call at runtime, nothing written
 - **Side effects:** none. `how_to_hire` returns contact routes; it never sends a message or books a call
@@ -96,7 +96,9 @@ node scripts/build-data.mjs "<folder holding website/ and deliverables/upwork-v3
 npm test
 ```
 
-To change availability, edit `availability.json` (`status`, `summary`, `updated`) and push.
+To change availability, edit `availability.json` (`status`, `summary`, `updated`) and push. Clients running through `npx` pick it up on the next install; the registry bundle changes only with a release.
+
+A new release: bump `version` in `package.json`, `manifest.json` and `server.json`, run `npx @anthropic-ai/mcpb pack`, attach the `.mcpb` to a GitHub release, put its SHA-256 and URL in `server.json`, then run the **publish to MCP Registry** workflow. It checks the hash and signs in with GitHub OIDC, so no secret is stored.
 
 ## Licence
 
