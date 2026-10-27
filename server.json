@@ -3,14 +3,14 @@
   "name": "io.github.cadi27tech/adrian-capraru",
   "title": "Adrian Capraru: profile and hiring",
   "description": "Ask about Adrian Capraru, Head of AI & Automation: case studies, services, availability, hiring.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "websiteUrl": "https://cadi27tech.github.io",
   "repository": { "url": "https://github.com/cadi27tech/adrian-capraru-mcp", "source": "github" },
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/cadi27tech/adrian-capraru-mcp/releases/download/v1.1.0/adrian-capraru-mcp-1.1.0.mcpb",
-      "fileSha256": "9fad1e5a9b62f34271a443b0220edaac2f04cbd073169e3f962310d5f105aa78",
+      "identifier": "https://github.com/cadi27tech/adrian-capraru-mcp/releases/download/v1.1.1/adrian-capraru-mcp-1.1.1.mcpb",
+      "fileSha256": "5621fafdff1f5d94206730a6196e20da25ccbd5be082bc539bf9f6a7ac21d812",
       "transport": { "type": "stdio" }
     }
   ]

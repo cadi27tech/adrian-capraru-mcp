@@ -54,7 +54,7 @@ claude mcp add adrian-capraru -- npx -y github:cadi27tech/adrian-capraru-mcp
 }
 ```
 
-Or download `adrian-capraru-mcp-1.1.0.mcpb` from the [latest release](https://github.com/cadi27tech/adrian-capraru-mcp/releases/latest) and open it: Claude Desktop installs bundles in one click.
+Or download `adrian-capraru-mcp-1.1.1.mcpb` from the [latest release](https://github.com/cadi27tech/adrian-capraru-mcp/releases/latest) and open it: Claude Desktop installs bundles in one click.
 
 **Cursor** (`~/.cursor/mcp.json`, or `.cursor/mcp.json` in a project)
 

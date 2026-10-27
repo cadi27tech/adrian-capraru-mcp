@@ -9,7 +9,7 @@
     "headline": "Head of AI & Automation. Finance AI from first commit to production, built to survive an audit.",
     "positioning": "Most AI projects in finance die between the demo and the audit. Adrian builds the ones that survive both.",
     "identity": "Head of AI & Automation who takes AI systems for finance and accounting from first commit to production, then runs them, with the controls a regulator and a finance director expect.",
-    "summary": "Most AI projects in finance die between the demo and the audit; Adrian Capraru builds the ones that survive both, and then runs them. He built an Irish chartered accountancy firm's AI & Automation service line from zero, including a 20-module client platform live in 10 days behind 3,000+ automated checks, with EU-only AI processing enforced in code. As COO of a real-estate crowdfunding platform he was the lead on the ASF authorisation and audit that ended in an EU crowdfunding (ECSP) licence in March 2024. He founded 3Descu and grew it from 5 printers in an apartment to a 200+ printer factory, turnover x65 in three years at a 57% net margin. Co-Founder & Automation Architect at Systemartis. Clients and customers in 32+ countries on four continents. 6 years in FinTech product and operations plus 2 years shipping AI automation in production.",
+    "summary": "Most AI projects in finance die between the demo and the audit; Adrian Capraru builds the ones that survive both, and then runs them. He built an Irish chartered accountancy firm's AI & Automation service line from zero, including a 20-module client platform live in 10 days behind 3,000+ automated checks, with EU-only AI processing enforced in code. As COO of a real-estate crowdfunding platform he was the lead on the ASF authorisation and audit that ended in an EU crowdfunding (ECSP) licence in March 2024. He founded 3Descu and grew it from 5 3D printers in an apartment to a 200+ 3D printer factory, turnover x65 in three years at a 57% net margin. Co-Founder & Automation Architect at Systemartis. Clients and customers in 32+ countries on four continents. 6 years in FinTech product and operations plus 2 years shipping AI automation in production.",
     "location": {
       "city": "Bucharest",
       "country_code": "RO",
@@ -47,7 +47,7 @@
       },
       {
         "figure": "x65",
-        "what": "Factory turnover in three years, at a 57% net margin and no outside equity. Founded with 5 printers in an apartment.",
+        "what": "Factory turnover in three years, at a 57% net margin and no outside equity. Founded with 5 3D printers in an apartment.",
         "source": "Public filings, 2022 to 2025",
         "url": "https://cadi27tech.github.io/work/3d-printing-factory-platform-mcp-server/"
       },
@@ -126,7 +126,7 @@
         "context": "On-demand 3D printing manufacturer, Targu Jiu, Romania. Founder, 100% founder-owned.",
         "summary": "On-demand 3D printing manufacturer for engineering buyers across Europe, founded on an EU start-up grant with no outside equity. Runs strategy, P&L, pricing, production and sales, and wrote every line of the software.",
         "highlights": [
-          "Grew from 5 printers in an apartment (2022) to more than 200 in its own production hall; turnover x65 in three years to about EUR 190K in 2025 at a 57% net margin, up 75% year on year (public filings).",
+          "Grew from 5 3D printers in an apartment (2022) to more than 200 in its own production hall; turnover x65 in three years to about EUR 190K in 2025 at a 57% net margin, up 75% year on year (public filings).",
           "2,000+ orders from 1,600+ buyers in 30 countries, including 26 of the 27 EU member states; 45% of orders ship to Germany; one in three orders from a returning customer; rated 4.7/5 by 200+ verified buyers.",
           "Hired and trained the team on site and remotely; wrote the SOPs and the ISO 9001 audit documentation. Hands-on with FDM and SLA production, 3D modelling and design for manufacturing.",
           "Shipped the quoting-to-fulfilment platform solo with AI coding agents in under five months: 929 commits, ~400 merged pull requests, 38 edge functions, 4 languages, 120+ release checkers (~260K assertions per run).",
@@ -139,7 +139,7 @@
           "2025 turnover: about EUR 190K",
           "Net margin: 57%",
           "Growth: +75% year on year",
-          "Capacity: 5 to 200+ printers",
+          "Capacity: 5 to 200+ 3D printers",
           "Orders: 2,000+",
           "Buyers: 1,600+",
           "Countries: 30, incl. 26 of 27 EU",
@@ -461,8 +461,8 @@
     },
     {
       "slug": "3d-printing-factory-platform-mcp-server",
-      "title": "From 5 printers in an apartment to a 200+ printer factory selling into 26 of the 27 EU member states",
-      "summary": "A 0-to-100 story. An EU start-up grant and 5 printers in 2022; today an ISO 9001:2015 certified company with 200+ printers, buyers in 26 of the 27 EU member states, a 57% net margin with no outside equity, its own quoting platform in four languages, and one of the first manufacturing MCP servers.",
+      "title": "From 5 3D printers in an apartment to a 200+ 3D printer factory selling into 26 of the 27 EU member states",
+      "summary": "A 0-to-100 story. An EU start-up grant and 5 3D printers in 2022; today an ISO 9001:2015 certified company with 200+ 3D printers, buyers in 26 of the 27 EU member states, a 57% net margin with no outside equity, its own quoting platform in four languages, and one of the first manufacturing MCP servers.",
       "headline": {
         "figure": "x65",
         "label": "turnover in three years, 57% net margin"
@@ -481,7 +481,7 @@
         "A unified customer ledger: five sales channels merged into one audited ledger reconciled to within EUR 1, with GDPR and contract suppression rules enforced in code."
       ],
       "results": [
-        "5 to 200+: printers, from an apartment (2022) to a dedicated production hall",
+        "5 to 200+: 3D printers, from an apartment (2022) to a dedicated production hall",
         "x65: turnover in three years, about EUR 190K in 2025, up 75% year on year, at a 57% net margin (public filings)",
         "2,000+: orders from 1,600+ buyers in 30 countries, including 26 of the 27 EU member states; 45% of orders ship to Germany; one in three from a returning customer",
         "4.7/5: rating from 200+ verified B2B buyers",

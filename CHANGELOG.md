@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1 (27 Oct 2026)
+- Data refreshed from the site: "3D printers" wording.
+
 ## 1.1.0 (27 Oct 2026)
 - list_services no longer carries prices; prices are quoted on Upwork or after a discovery call.
 
