@@ -1,0 +1,24 @@
+# Publishes server.json to the official MCP Registry. GitHub OIDC proves the
+# io.github.cadi27tech namespace, so no secret is stored. Run it after the
+# release carrying the .mcpb named in server.json exists.
+name: publish to MCP Registry
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bundle hash matches server.json
+        run: |
+          url=$(jq -r '.packages[0].identifier' server.json)
+          want=$(jq -r '.packages[0].fileSha256' server.json)
+          got=$(curl -fsSL "$url" | sha256sum | cut -d' ' -f1)
+          echo "$got"; test "$got" = "$want"
+      - name: Install mcp-publisher
+        run: curl -fsSL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+      - run: ./mcp-publisher login github-oidc
+      - run: ./mcp-publisher publish
