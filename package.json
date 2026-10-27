@@ -1,6 +1,6 @@
 {
   "name": "adrian-capraru-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for AI assistants: Adrian Capraru's profile, case studies, published services, availability and how to hire him.",
   "type": "module",
   "bin": {

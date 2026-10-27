@@ -111,7 +111,6 @@
           "Status: Top Rated",
           "Contracts: 22",
           "Rated five-star: 12 of 12",
-          "Earnings: USD 13K+ in 12 months",
           "Repeat work: one client hired 4 times",
           "Pipeline: all inbound or repeat",
           "Budget: each Dutch phase at or under"
@@ -395,7 +394,7 @@
         "AI assistant with confirm-first actions. A tool-registry agent that runs under the user's own session permissions, proposes an action, and executes only after the user confirms. Per-tenant cost caps. A daily staff brief went live on 7 Oct.",
         "Numbers computed, words generated. The fee engine computes every figure deterministically and lets AI compose only the wording, a rule written down with reference to model non-determinism and Irish DPC guidance.",
         "Security by default. Row-level tenant isolation, CSP and HSTS, masked PPS and IBAN numbers, 192-bit recipient tokens, an audit log and automatic retention purge. SSL Labs grade A.",
-        "A service the firm can sell. A five-tier price ladder (Free, Essentials EUR 59, Pro EUR 129, Business EUR 249, Practice Bookkeeping EUR 149) with add-ons, and an AI for Accountants session that trained the full team (10+ people) with live demos, backed by an AI Academy of 8 lessons and 48 prompts."
+        "A service the firm can sell. A five-tier price ladder (Free, Essentials, Pro, Business and Practice Bookkeeping) with add-ons, and an AI for Accountants session that trained the full team (10+ people) with live demos, backed by an AI Academy of 8 lessons and 48 prompts."
       ],
       "results": [
         "10 days: from first commit (23 Sep) to live production (3 Oct 2026)",
@@ -663,9 +662,8 @@
     }
   ],
   "services": {
-    "currency": "USD",
     "where_to_buy": "Upwork: https://www.upwork.com/freelancers/cadrian",
-    "note": "Prices as published on Upwork. Fixed-price projects run through the Upwork Project Catalog; consultations are booked through Upwork Consultations.",
+    "note": "Prices are quoted on Upwork or after a discovery call, not here. Fixed-price projects run through the Upwork Project Catalog; consultations are booked through Upwork Consultations.",
     "projects": [
       {
         "name": "Finance-ops AI pilot",
@@ -674,7 +672,6 @@
           {
             "level": "starter",
             "name": "Pilot: one AP flow live",
-            "price_usd": 9500,
             "delivery_days": 21,
             "revisions": 2,
             "description": "One live flow: supplier bills read by AI, checked, approved and posted to one Xero org.",
@@ -692,7 +689,6 @@
           {
             "level": "standard",
             "name": "Pilot plus payments",
-            "price_usd": 14500,
             "delivery_days": 30,
             "revisions": 3,
             "description": "Starter plus payment files, duplicate checks, supplier rules and up to 2 Xero orgs.",
@@ -709,7 +705,6 @@
           {
             "level": "advanced",
             "name": "Rollout: entities + month-end",
-            "price_usd": 24000,
             "delivery_days": 45,
             "revisions": 3,
             "description": "Standard plus up to 4 entities, month-end journal drafts, exception dashboard, 30-day hypercare.",
@@ -732,7 +727,6 @@
           {
             "level": "starter",
             "name": "Audit: one process area",
-            "price_usd": 500,
             "delivery_days": 5,
             "revisions": 1,
             "description": "One process mapped and the top 3 automations ranked by payback, effort and risk.",
@@ -747,7 +741,6 @@
           {
             "level": "standard",
             "name": "Audit plus prototype",
-            "price_usd": 1200,
             "delivery_days": 10,
             "revisions": 2,
             "description": "Starter plus a working prototype of the top-ranked automation on your sample data.",
@@ -761,7 +754,6 @@
           {
             "level": "advanced",
             "name": "Audit, prototype, 90-day plan",
-            "price_usd": 2900,
             "delivery_days": 15,
             "revisions": 2,
             "description": "Standard plus a 90-day roadmap, cost per document, AI risk notes and fixed quotes per phase.",
@@ -783,7 +775,6 @@
           {
             "level": "starter",
             "name": "One entity, deal to invoice",
-            "price_usd": 1800,
             "delivery_days": 10,
             "revisions": 1,
             "description": "Closed HubSpot deals become draft Xero invoices for one entity, with logs and failure alerts.",
@@ -799,7 +790,6 @@
           {
             "level": "standard",
             "name": "Approvals and reminders",
-            "price_usd": 3500,
             "delivery_days": 15,
             "revisions": 2,
             "description": "Starter plus signed approval links before posting, payment sync back to HubSpot, reminders.",
@@ -815,7 +805,6 @@
           {
             "level": "advanced",
             "name": "Multi-entity, multi-currency",
-            "price_usd": 6500,
             "delivery_days": 25,
             "revisions": 3,
             "description": "Standard plus routing per legal entity, tax rules, currencies and a synced-invoice dashboard.",
@@ -837,7 +826,6 @@
           {
             "level": "starter",
             "name": "Inbox to Xero drafts",
-            "price_usd": 1900,
             "delivery_days": 10,
             "revisions": 1,
             "description": "Bills from one inbox read by AI and created as Xero or Dext drafts, with an audit log.",
@@ -853,7 +841,6 @@
           {
             "level": "standard",
             "name": "Approval queue",
-            "price_usd": 3600,
             "delivery_days": 15,
             "revisions": 2,
             "description": "Starter plus confidence scores, an approval queue and VIES checks on supplier VAT numbers.",
@@ -869,7 +856,6 @@
           {
             "level": "advanced",
             "name": "Exceptions and payments",
-            "price_usd": 5900,
             "delivery_days": 25,
             "revisions": 3,
             "description": "Standard plus supplier rules, credit notes, SEPA payment files and a weekly exception report.",
@@ -891,7 +877,6 @@
           {
             "level": "starter",
             "name": "One journal automation",
-            "price_usd": 1200,
             "delivery_days": 7,
             "revisions": 1,
             "description": "One Xero automation (prepayments, accruals or bill references) with validation and a dry run.",
@@ -906,7 +891,6 @@
           {
             "level": "standard",
             "name": "Daily run plus exceptions",
-            "price_usd": 2400,
             "delivery_days": 12,
             "revisions": 2,
             "description": "Starter plus a scheduled daily run, an exception queue and a match test against your bookkeeper.",
@@ -921,7 +905,6 @@
           {
             "level": "advanced",
             "name": "Month-end pack",
-            "price_usd": 4200,
             "delivery_days": 20,
             "revisions": 3,
             "description": "Standard plus multi-rate VAT checks, month-end journal drafts and a regression test set.",
@@ -943,7 +926,6 @@
           {
             "level": "starter",
             "name": "Client records cleaned",
-            "price_usd": 1800,
             "delivery_days": 10,
             "revisions": 1,
             "description": "Client records audited and migrated into one schema, with an audit of every field written.",
@@ -958,7 +940,6 @@
           {
             "level": "standard",
             "name": "Records, tasks and billing",
-            "price_usd": 4200,
             "delivery_days": 20,
             "revisions": 2,
             "description": "Starter plus recurring tasks, Xero invoice drafting and credit control reminders.",
@@ -974,7 +955,6 @@
           {
             "level": "advanced",
             "name": "Practice operating system",
-            "price_usd": 8500,
             "delivery_days": 40,
             "revisions": 3,
             "description": "Standard plus dashboards per staff member, client-portal links and staff training.",
@@ -996,7 +976,6 @@
           {
             "level": "starter",
             "name": "AI inventory and triage",
-            "price_usd": 750,
             "delivery_days": 5,
             "revisions": 1,
             "description": "Every AI tool and use in the practice listed with owner, data touched and a risk flag.",
@@ -1011,7 +990,6 @@
           {
             "level": "standard",
             "name": "Policies and controls",
-            "price_usd": 1900,
             "delivery_days": 10,
             "revisions": 2,
             "description": "Starter plus AI use policy, staff AI literacy plan, client notices and vendor questionnaire.",
@@ -1027,7 +1005,6 @@
           {
             "level": "advanced",
             "name": "ISO 42001-aligned starter kit",
-            "price_usd": 3900,
             "delivery_days": 20,
             "revisions": 2,
             "description": "Standard plus an ISO 42001-aligned management-system pack, risk register and one audited workflow.",
@@ -1048,7 +1025,6 @@
           {
             "level": "starter",
             "name": "Readiness check",
-            "price_usd": 900,
             "delivery_days": 7,
             "revisions": 1,
             "description": "Invoice flows mapped, EN 16931 data gaps found in Xero, VAT numbers checked, dated plan.",
@@ -1063,7 +1039,6 @@
           {
             "level": "standard",
             "name": "Clean-up and test run",
-            "price_usd": 2500,
             "delivery_days": 14,
             "revisions": 2,
             "description": "Starter plus data clean-up in Xero, provider shortlist and a test exchange in a sandbox.",
@@ -1078,7 +1053,6 @@
           {
             "level": "advanced",
             "name": "Practice-wide rollout plan",
-            "price_usd": 5900,
             "delivery_days": 30,
             "revisions": 2,
             "description": "Standard plus readiness scoring across up to 25 client Xero orgs and a monthly readiness report.",
@@ -1099,7 +1073,6 @@
           {
             "level": "starter",
             "name": "One document type",
-            "price_usd": 800,
             "delivery_days": 5,
             "revisions": 1,
             "description": "One document type extracted to Sheets, Xero or your database, with field checks.",
@@ -1114,7 +1087,6 @@
           {
             "level": "standard",
             "name": "Measured accuracy",
-            "price_usd": 1900,
             "delivery_days": 10,
             "revisions": 2,
             "description": "Starter plus a golden test set from your documents and a per-field accuracy report.",
@@ -1130,7 +1102,6 @@
           {
             "level": "advanced",
             "name": "Two-model consensus",
-            "price_usd": 3900,
             "delivery_days": 20,
             "revisions": 2,
             "description": "Standard plus two-model consensus, up to 3 document types and a regression gate.",
@@ -1152,7 +1123,6 @@
           {
             "level": "starter",
             "name": "Read-only MCP server",
-            "price_usd": 1500,
             "delivery_days": 7,
             "revisions": 1,
             "description": "Up to 5 of your API actions exposed as MCP tools, with typed inputs and rate limits.",
@@ -1168,7 +1138,6 @@
           {
             "level": "standard",
             "name": "Production MCP server",
-            "price_usd": 3500,
             "delivery_days": 14,
             "revisions": 2,
             "description": "Up to 15 tools, auth, validation, usage logs and hosted deployment.",
@@ -1184,7 +1153,6 @@
           {
             "level": "advanced",
             "name": "Listed and monitored",
-            "price_usd": 7000,
             "delivery_days": 28,
             "revisions": 3,
             "description": "Standard plus confirm-first write actions, monitoring and registry listings.",
@@ -1207,7 +1175,6 @@
           {
             "level": "starter",
             "name": "One workflow fixed",
-            "price_usd": 300,
             "delivery_days": 3,
             "revisions": 1,
             "description": "One broken workflow diagnosed and fixed, with the root cause written down.",
@@ -1221,7 +1188,6 @@
           {
             "level": "standard",
             "name": "Fixed plus error handling",
-            "price_usd": 750,
             "delivery_days": 7,
             "revisions": 2,
             "description": "Up to 3 workflows fixed, with retries, an error catcher and failure alerts.",
@@ -1236,7 +1202,6 @@
           {
             "level": "advanced",
             "name": "Rescue plus health check",
-            "price_usd": 1600,
             "delivery_days": 12,
             "revisions": 2,
             "description": "Up to 8 workflows audited and fixed, daily health check, optional move to cheaper n8n.",
@@ -1257,7 +1222,6 @@
           {
             "level": "starter",
             "name": "Monitor and fix (10 h)",
-            "price_usd": 750,
             "delivery_days": 30,
             "revisions": 3,
             "description": "Monitoring, failure alerts and about 10 hours of fixes or small changes this month.",
@@ -1271,7 +1235,6 @@
           {
             "level": "standard",
             "name": "Priority support (20 h)",
-            "price_usd": 1500,
             "delivery_days": 30,
             "revisions": 5,
             "description": "About 20 hours, next-business-day response and a monthly health report.",
@@ -1285,7 +1248,6 @@
           {
             "level": "advanced",
             "name": "Embedded support (40 h)",
-            "price_usd": 3000,
             "delivery_days": 30,
             "revisions": 10,
             "description": "About 40 hours, same-day response on business days, a roadmap call and regression runs.",
@@ -1304,26 +1266,17 @@
       {
         "name": "Finance-ops automation review",
         "upwork_title": "Finance-ops automation review: Xero, HubSpot and accounts payable",
-        "length": "30 min and 60 min",
-        "price_usd_per_30_min": 95,
-        "price_detail": "USD 95 for 30 min, USD 190 for 60 min",
-        "terms": "Fee credited against any project booked within 14 days."
+        "length": "30 min and 60 min"
       },
       {
         "name": "AI agent and MCP architecture review",
         "upwork_title": "AI agent and MCP architecture review: evals, approvals, audit trail",
-        "length": "60 min",
-        "price_usd_per_30_min": 125,
-        "price_detail": "USD 250 for 60 min",
-        "terms": "Fee credited against any project booked within 14 days."
+        "length": "60 min"
       },
       {
         "name": "Fractional AI lead session",
         "upwork_title": "Fractional AI lead session for founders, COOs and practice owners",
-        "length": "60 min",
-        "price_usd_per_30_min": 150,
-        "price_detail": "USD 300 for 60 min",
-        "terms": "Fee credited against any project booked within 14 days."
+        "length": "60 min"
       }
     ]
   },

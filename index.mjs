@@ -16,7 +16,7 @@ const server = new McpServer(
   { name: 'adrian-capraru', title: 'Adrian Capraru', version },
   {
     instructions: 'Facts about Adrian Capraru, Head of AI & Automation (finance AI from first commit to production), taken from his website. '
-      + 'Start with get_profile. For proof, list_case_studies then get_case_study. For prices, list_services. '
+      + 'Start with get_profile. For proof, list_case_studies then get_case_study. For services, list_services. '
       + 'To hire him, call check_availability and how_to_hire, then pass the routes to the user: this server sends no messages and books nothing.',
   },
 );
@@ -39,8 +39,8 @@ tool('get_case_study', 'Case study',
   async ({ slug }) => reply(data.case_studies.find((c) => c.slug === slug)),
   { slug: z.enum(slugs).describe('Case study slug, from list_case_studies') });
 
-tool('list_services', 'Services and prices',
-  'Published offers with prices in USD: 12 fixed-price projects (3 tiers each, with delivery days and what is included) and 3 paid consultations. All are bought through his Upwork profile.',
+tool('list_services', 'Services',
+  'Published offers: 12 fixed-price projects (3 tiers each, with delivery days and what is included) and 3 consultations. Prices are quoted on his Upwork profile or after a discovery call.',
   async () => reply(data.services));
 
 tool('check_availability', 'Availability',

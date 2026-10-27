@@ -66,17 +66,12 @@ test('get_case_study: an unknown slug is refused, not guessed', async () => {
   assert.match(res.content[0].text, /accountancy-saas-live-in-10-days/);
 });
 
-test('list_services: 12 projects with 3 priced tiers, 3 consultations', async () => {
-  const { body: s } = await call('list_services');
-  assert.equal(s.currency, 'USD');
+test('list_services: 12 projects with 3 tiers, 3 consultations, no prices', async () => {
+  const { body: s, res } = await call('list_services');
   assert.equal(s.projects.length, 12);
-  for (const p of s.projects) {
-    assert.equal(p.tiers.length, 3, p.name);
-    const prices = p.tiers.map((t) => t.price_usd);
-    assert.ok(prices.every((x) => Number.isInteger(x) && x > 0), p.name);
-    assert.deepEqual(prices, [...prices].sort((a, b) => a - b), `${p.name}: tiers rise in price`);
-  }
-  assert.deepEqual(s.consultations.map((c) => c.price_usd_per_30_min), [95, 125, 150]);
+  for (const p of s.projects) assert.equal(p.tiers.length, 3, p.name);
+  assert.equal(s.consultations.length, 3);
+  assert.doesNotMatch(res.content[0].text, /price_|$d|USD d/, 'no prices on a public surface');
 });
 
 test('check_availability: the static status file, no calendar', async () => {

@@ -25,7 +25,7 @@ All six are read-only (`readOnlyHint: true`, `openWorldHint: false`).
 | `get_profile` | Positioning, summary, all 8 roles with highlights and key figures, location (Romania, EET) and remote terms, what he is open to, languages, education, skills, links |
 | `list_case_studies` | The 7 case studies on the site: slug, title, summary, headline figure, status, URL |
 | `get_case_study` | One case in full: client type, role, timeline, status, problem, what was built, measured results, stack, links. `slug` is an enum, so an unknown slug is refused rather than guessed |
-| `list_services` | 12 fixed-price projects (3 tiers each, USD, delivery days, what is included) and 3 paid consultations, as published on Upwork |
+| `list_services` | 12 fixed-price projects (3 tiers each, delivery days, what is included) and 3 consultations, as published on Upwork; prices are quoted on Upwork |
 | `check_availability` | The status in `availability.json`, its update date, what he is open to and his time zone. A status note, not a calendar |
 | `how_to_hire` | Contact page, Upwork profile, LinkedIn and CV PDF, what each route is for, and what to put in a first message |
 
@@ -54,7 +54,7 @@ claude mcp add adrian-capraru -- npx -y github:cadi27tech/adrian-capraru-mcp
 }
 ```
 
-Or download `adrian-capraru-mcp-1.0.0.mcpb` from the [latest release](https://github.com/cadi27tech/adrian-capraru-mcp/releases/latest) and open it: Claude Desktop installs bundles in one click.
+Or download `adrian-capraru-mcp-1.1.0.mcpb` from the [latest release](https://github.com/cadi27tech/adrian-capraru-mcp/releases/latest) and open it: Claude Desktop installs bundles in one click.
 
 **Cursor** (`~/.cursor/mcp.json`, or `.cursor/mcp.json` in a project)
 

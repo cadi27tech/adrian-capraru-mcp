@@ -107,36 +107,31 @@ const caseStudies = work.map((w) => {
   };
 });
 
-// Upwork Project Catalog: 12 listings, 3 tiers each, prices in USD as published.
+// Upwork Project Catalog: 12 listings, 3 tiers each. No prices: Adrian keeps prices off every public surface (27 Oct 2026).
 const catalog = readFileSync(join(UW, 'catalog.md'), 'utf8').replace(/\r/g, '').split(/\n## (?=\d+\. )/).slice(1).map((sec) => {
   const [, name] = must(sec.match(/^\d+\. (.+?)(?: \([A-Z]+\))?\n/), 'catalog heading');
   const tiers = [...sec.matchAll(/^(STARTER|STANDARD|ADVANCED) - name: `([^`]+)`\n- Price: \$([\d,]+) \| Delivery: (\d+) days \| Revisions: (\d+)\n- Description: `([^`]+)`\n- Included: (.+)$/gm)]
-    .map(([, level, tier, price, days, revisions, description, included]) => ({
-      level: level.toLowerCase(), name: tier, price_usd: Number(price.replace(/,/g, '')), delivery_days: Number(days), revisions: Number(revisions),
+    .map(([, level, tier, , days, revisions, description, included]) => ({
+      level: level.toLowerCase(), name: tier, delivery_days: Number(days), revisions: Number(revisions),
       description: clean(description), included: list(included.split(' • ')),
     }));
   if (tiers.length !== 3) throw new Error(`catalog "${name}": expected 3 tiers, found ${tiers.length}`);
   return { name: clean(name), upwork_title: `You will get ${clean(must(sec.match(/```title\n(.+)\n```/), 'catalog title')[1])}`, tiers };
 });
 const consultations = readFileSync(join(UW, 'consultations.md'), 'utf8').replace(/\r/g, '').split(/\n## (?=\d+\. )/).slice(1).map((sec) => {
-  const [, price, detail] = must(sec.match(/\*\*Price:\*\* \$(\d+) per 30 min \((.+)\)/), 'consultation price');
   return {
     name: clean(must(sec.match(/^\d+\. (.+)\n/), 'consultation heading')[1]),
     upwork_title: clean(must(sec.match(/```title\n(.+)\n```/), 'consultation title')[1]),
     length: clean(must(sec.match(/\*\*Length offered:\*\* (.+)/), 'consultation length')[1]),
-    price_usd_per_30_min: Number(price),
-    price_detail: clean(detail.replace(/\$/g, 'USD ')),
   };
 });
 must(catalog.length === 12 && consultations.length === 3, '12 catalog listings and 3 consultations');
-const fee = must(readFileSync(join(UW, 'consultations.md'), 'utf8').match(/Fee credited against any project booked within 14 days\./), 'consultation fee credit')[0];
 
 const services = {
-  currency: 'USD',
   where_to_buy: `Upwork: ${site.links.upwork}`,
-  note: 'Prices as published on Upwork. Fixed-price projects run through the Upwork Project Catalog; consultations are booked through Upwork Consultations.',
+  note: 'Prices are quoted on Upwork or after a discovery call, not here. Fixed-price projects run through the Upwork Project Catalog; consultations are booked through Upwork Consultations.',
   projects: catalog,
-  consultations: consultations.map((c) => ({ ...c, terms: fee })),
+  consultations,
 };
 
 const hire = {
