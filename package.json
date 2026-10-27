@@ -1,0 +1,45 @@
+{
+  "name": "adrian-capraru-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AI assistants: Adrian Capraru's profile, case studies, published services, availability and how to hire him.",
+  "type": "module",
+  "bin": {
+    "adrian-capraru-mcp": "index.mjs"
+  },
+  "main": "index.mjs",
+  "files": [
+    "index.mjs",
+    "data/",
+    "availability.json",
+    "examples/"
+  ],
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node --test",
+    "build:data": "node scripts/build-data.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "profile",
+    "hire",
+    "ai-agents",
+    "finance-automation"
+  ],
+  "author": "Adrian Capraru (https://cadi27tech.github.io)",
+  "homepage": "https://cadi27tech.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadi27tech/adrian-capraru-mcp.git"
+  },
+  "license": "MIT",
+  "mcpName": "io.github.cadi27tech/adrian-capraru",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}

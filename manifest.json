@@ -1,0 +1,26 @@
+{
+  "manifest_version": "0.3",
+  "name": "adrian-capraru-mcp",
+  "display_name": "Adrian Capraru",
+  "version": "1.0.0",
+  "description": "Ask an AI assistant about Adrian Capraru, Head of AI & Automation: profile, case studies, published services, availability and how to hire him.",
+  "author": { "name": "Adrian Capraru", "url": "https://cadi27tech.github.io" },
+  "homepage": "https://cadi27tech.github.io",
+  "repository": { "type": "git", "url": "https://github.com/cadi27tech/adrian-capraru-mcp" },
+  "license": "MIT",
+  "keywords": ["profile", "hire", "finance automation", "case studies"],
+  "server": {
+    "type": "node",
+    "entry_point": "index.mjs",
+    "mcp_config": { "command": "node", "args": ["${__dirname}/index.mjs"] }
+  },
+  "tools": [
+    { "name": "get_profile", "description": "Positioning, roles, location and remote terms, languages, links." },
+    { "name": "list_case_studies", "description": "The 7 case studies on his site, with summary, headline figure and URL." },
+    { "name": "get_case_study", "description": "One case study in full: problem, build, results, stack, link." },
+    { "name": "list_services", "description": "Published fixed-price projects and consultations, with USD prices." },
+    { "name": "check_availability", "description": "Availability status as last set, with the update date. Not a calendar." },
+    { "name": "how_to_hire", "description": "Contact routes: contact page, Upwork, LinkedIn, CV PDF. Sends nothing." }
+  ],
+  "compatibility": { "runtimes": { "node": ">=20.0.0" } }
+}

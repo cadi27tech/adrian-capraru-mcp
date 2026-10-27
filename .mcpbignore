@@ -1,0 +1,10 @@
+.git/
+.github/
+docs/
+test/
+scripts/
+examples/
+README.md
+CHANGELOG.md
+server.json
+*.mcpb
