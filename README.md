@@ -4,7 +4,7 @@
 
 An agent-readable profile. A small Model Context Protocol server that lets Claude, ChatGPT, Cursor or any MCP client answer questions about Adrian Capraru, Head of AI & Automation, and hand a user the routes to hire him: who he is, what he has built and measured, what his published offers cost, whether he is taking work, and where to make contact.
 
-Every answer comes from the data behind [cadi27tech.github.io](https://cadi27tech.github.io). A build script generates `data/profile.json` from the site's own content file, its JSON Resume and the published Upwork offers, so the server says what the site says and nothing else.
+Every answer comes from the data behind [adriancapraru.com](https://adriancapraru.com). A build script generates `data/profile.json` from the site's own content file, its JSON Resume and the published Upwork offers, so the server says what the site says and nothing else.
 
 - **Registry:** official MCP Registry, `io.github.cadi27tech/adrian-capraru` ([registry entry](https://registry.modelcontextprotocol.io/v0/servers?search=adrian-capraru)), active since 27 Oct 2026
 - **Transport:** stdio. Runs with `npx github:cadi27tech/adrian-capraru-mcp`, or as the MCPB bundle attached to each release
@@ -102,4 +102,4 @@ A new release: bump `version` in `package.json`, `manifest.json` and `server.jso
 
 ## Licence
 
-MIT. Adrian Capraru, [cadi27tech.github.io](https://cadi27tech.github.io). The drawing is generated with [blueprint-svg](https://github.com/cadi27tech/blueprint-svg).
+MIT. Adrian Capraru, [adriancapraru.com](https://adriancapraru.com). The drawing is generated with [blueprint-svg](https://github.com/cadi27tech/blueprint-svg).

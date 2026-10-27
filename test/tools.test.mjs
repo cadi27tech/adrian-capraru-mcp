@@ -13,7 +13,7 @@ const call = async (name, args = {}) => {
   const res = await client.callTool({ name, arguments: args });
   return { res, body: res.isError ? null : JSON.parse(res.content[0].text) };
 };
-const SITE = 'https://cadi27tech.github.io';
+const SITE = 'https://adriancapraru.com';
 
 before(() => client.connect(new StdioClientTransport({ command: process.execPath, args: [root('index.mjs')] })));
 after(() => client.close());

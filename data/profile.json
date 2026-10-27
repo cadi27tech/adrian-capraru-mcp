@@ -1,6 +1,6 @@
 {
   "source": {
-    "site": "https://cadi27tech.github.io",
+    "site": "https://adriancapraru.com",
     "resume_last_modified": "2026-10-26",
     "built": "2026-10-27"
   },
@@ -37,25 +37,25 @@
         "figure": "10 days",
         "what": "An Irish accountancy firm's 20-module client platform, first commit to live production, inside an AI service line Adrian built from zero.",
         "source": "Build log, 23 Sep to 3 Oct 2026",
-        "url": "https://cadi27tech.github.io/work/accountancy-saas-live-in-10-days/"
+        "url": "https://adriancapraru.com/work/accountancy-saas-live-in-10-days/"
       },
       {
         "figure": "Mar 2024",
         "what": "EU crowdfunding (ECSP) licence for the platform Adrian ran as COO, with him as lead on the authorisation and audit.",
         "source": "ASF register: Romania's 4th ECSP licence",
-        "url": "https://cadi27tech.github.io/work/eu-crowdfunding-licence-asf-authorisation/"
+        "url": "https://adriancapraru.com/work/eu-crowdfunding-licence-asf-authorisation/"
       },
       {
         "figure": "x65",
         "what": "Factory turnover in three years, at a 57% net margin and no outside equity. Founded with five 3D printers in an apartment.",
         "source": "Public filings, 2022 to 2025",
-        "url": "https://cadi27tech.github.io/work/3d-printing-factory-platform-mcp-server/"
+        "url": "https://adriancapraru.com/work/3d-printing-factory-platform-mcp-server/"
       },
       {
         "figure": "32+",
         "what": "Countries with clients and customers, on four continents. Factory buyers in 26 of the 27 EU member states.",
         "source": "Order ledger and client contracts",
-        "url": "https://cadi27tech.github.io/about/"
+        "url": "https://adriancapraru.com/about/"
       }
     ],
     "upwork": "Top Rated on Upwork: 100% Job Success, 22 contracts for clients across Europe, the US and Australia, 12 of 12 rated contracts five stars, one client hired four times. All work inbound.",
@@ -359,14 +359,14 @@
       }
     ],
     "links": {
-      "website": "https://cadi27tech.github.io",
-      "contact_page": "https://cadi27tech.github.io/contact/",
-      "cv_page": "https://cadi27tech.github.io/cv/",
-      "cv_pdf": "https://cadi27tech.github.io/cv.pdf",
-      "resume_json": "https://cadi27tech.github.io/resume.json",
-      "llms_txt": "https://cadi27tech.github.io/llms.txt",
-      "case_studies": "https://cadi27tech.github.io/work/",
-      "press": "https://cadi27tech.github.io/press/",
+      "website": "https://adriancapraru.com",
+      "contact_page": "https://adriancapraru.com/contact/",
+      "cv_page": "https://adriancapraru.com/cv/",
+      "cv_pdf": "https://adriancapraru.com/cv.pdf",
+      "resume_json": "https://adriancapraru.com/resume.json",
+      "llms_txt": "https://adriancapraru.com/llms.txt",
+      "case_studies": "https://adriancapraru.com/work/",
+      "press": "https://adriancapraru.com/press/",
       "linkedin": "https://www.linkedin.com/in/adriancapraru27",
       "github": "https://github.com/cadi27tech",
       "upwork": "https://www.upwork.com/freelancers/cadrian"
@@ -423,7 +423,7 @@
           "url": "https://suite.mawhately.ie"
         }
       ],
-      "url": "https://cadi27tech.github.io/work/accountancy-saas-live-in-10-days/"
+      "url": "https://adriancapraru.com/work/accountancy-saas-live-in-10-days/"
     },
     {
       "slug": "eu-crowdfunding-licence-asf-authorisation",
@@ -457,7 +457,7 @@
         "Policy set and regulatory reporting"
       ],
       "links": [],
-      "url": "https://cadi27tech.github.io/work/eu-crowdfunding-licence-asf-authorisation/"
+      "url": "https://adriancapraru.com/work/eu-crowdfunding-licence-asf-authorisation/"
     },
     {
       "slug": "3d-printing-factory-platform-mcp-server",
@@ -512,10 +512,10 @@
         },
         {
           "label": "Press coverage",
-          "url": "https://cadi27tech.github.io/press/"
+          "url": "https://adriancapraru.com/press/"
         }
       ],
-      "url": "https://cadi27tech.github.io/work/3d-printing-factory-platform-mcp-server/"
+      "url": "https://adriancapraru.com/work/3d-printing-factory-platform-mcp-server/"
     },
     {
       "slug": "hubspot-to-xero-multi-entity-invoicing",
@@ -551,7 +551,7 @@
         "Microsoft Outlook"
       ],
       "links": [],
-      "url": "https://cadi27tech.github.io/work/hubspot-to-xero-multi-entity-invoicing/"
+      "url": "https://adriancapraru.com/work/hubspot-to-xero-multi-entity-invoicing/"
     },
     {
       "slug": "eu-sovereign-financial-reporting-platform",
@@ -589,7 +589,7 @@
         "Exact Online API"
       ],
       "links": [],
-      "url": "https://cadi27tech.github.io/work/eu-sovereign-financial-reporting-platform/"
+      "url": "https://adriancapraru.com/work/eu-sovereign-financial-reporting-platform/"
     },
     {
       "slug": "xero-prepayment-journals-automation",
@@ -622,7 +622,7 @@
         "pypdf"
       ],
       "links": [],
-      "url": "https://cadi27tech.github.io/work/xero-prepayment-journals-automation/"
+      "url": "https://adriancapraru.com/work/xero-prepayment-journals-automation/"
     },
     {
       "slug": "hotel-group-daily-revenue-reporting",
@@ -658,7 +658,7 @@
         "Excel templates"
       ],
       "links": [],
-      "url": "https://cadi27tech.github.io/work/hotel-group-daily-revenue-reporting/"
+      "url": "https://adriancapraru.com/work/hotel-group-daily-revenue-reporting/"
     }
   ],
   "services": {
@@ -1285,7 +1285,7 @@
     "routes": [
       {
         "route": "Contact page",
-        "url": "https://cadi27tech.github.io/contact/",
+        "url": "https://adriancapraru.com/contact/",
         "use_for": "Roles, fractional engagements and project enquiries. The page lists the contact address and asks for a short brief."
       },
       {
@@ -1300,7 +1300,7 @@
       },
       {
         "route": "CV (PDF)",
-        "url": "https://cadi27tech.github.io/cv.pdf",
+        "url": "https://adriancapraru.com/cv.pdf",
         "use_for": "The full CV to forward to a hiring team."
       }
     ],

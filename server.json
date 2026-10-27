@@ -3,8 +3,8 @@
   "name": "io.github.cadi27tech/adrian-capraru",
   "title": "Adrian Capraru: profile and hiring",
   "description": "Ask about Adrian Capraru, Head of AI & Automation: case studies, services, availability, hiring.",
-  "version": "1.1.1",
-  "websiteUrl": "https://cadi27tech.github.io",
+  "version": "1.1.2",
+  "websiteUrl": "https://adriancapraru.com",
   "repository": { "url": "https://github.com/cadi27tech/adrian-capraru-mcp", "source": "github" },
   "packages": [
     {
